@@ -37,9 +37,8 @@ cat << EOF > /etc/v2ray/config.json
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                      "path": "/logo_gmail_lockup_default_1x_r2.png"
-                    }
-                "security": "none"
+                      "path": "/logo"
+                    },              
             }
         }
     ],
