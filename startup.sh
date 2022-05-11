@@ -36,7 +36,9 @@ cat << EOF > /etc/v2ray/config.json
             },
              "streamSettings": {
                 "network": "ws",
-                "security": "none"
+                "wsSettings": {
+         	     "path": "/fc7b0168/img/favicon.ico"
+    	       }
             }
         }
     ],
