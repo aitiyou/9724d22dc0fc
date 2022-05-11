@@ -34,11 +34,9 @@ cat << EOF > /etc/v2ray/config.json
                 ],
                  "decryption": "none"
             },
-            "streamSettings": {
+             "streamSettings": {
                 "network": "ws",
-                "wsSettings": {
-                      "path": "img/favicon.ico"
-                    }             
+                "security": "none"
             }
         }
     ],
